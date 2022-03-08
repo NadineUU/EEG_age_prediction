@@ -1,6 +1,6 @@
-# EEG_age_prediction
+# EEG_age_prediction - makeda fork
 
-Deep learning for age prediciton using EEG data.
+This is a forked and updated version of a project for deep learning for age prediciton using EEG data.
 
 ## Structure of files
 
@@ -63,8 +63,8 @@ or Sven van der Burg (s.vanderburg@esciencecenter.nl)
 
 How to get the notebooks running? Assuming the raw data set and metadata is available.
 
-1. Install all Python packages required, using conda and the environment.yml file.
-2. Update the config_template.py file and rename to config.py.
+1. Install all Python packages required, using conda and the environment-march-update2.yaml file.
+2. Update the configuration_template.py (NOT config_template) file and rename to config.py.
 3. Use the preprocessing notebooks to process the raw data to usable data for either the ML or (reduced) DL models (separate notebooks).
 4. The 'model training' notebooks can be used the train and save models.
 5. The 'model validation' notebooks can be used to assess the performance of the models.
